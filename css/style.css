@@ -1,21 +1,22 @@
  body {
-  /* Location of the image */
-  background-image: url(../vaporwave.jpg);
-  /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
-  /* Background image doesn't tile */
-  background-repeat: no-repeat;
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: cover;
-  font-family: 'VT323', monospace;
-}
+  background: rgba(230,143,226,1);
+  background: -moz-linear-gradient(top, rgba(230,143,226,1) 0%, rgba(73,170,141,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(230,143,226,1)), color-stop(100%, rgba(73,170,141,1)));
+  background: -webkit-linear-gradient(top, rgba(230,143,226,1) 0%, rgba(73,170,141,1) 100%);
+  background: -o-linear-gradient(top, rgba(230,143,226,1) 0%, rgba(73,170,141,1) 100%);
+  background: -ms-linear-gradient(top, rgba(230,143,226,1) 0%, rgba(73,170,141,1) 100%);
+  background: linear-gradient(to bottom, rgba(230,143,226,1) 0%, rgba(73,170,141,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e68fe2', endColorstr='#49aa8d', GradientType=0 );
 
-* {
+  background-image: url(../vaporwave.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  font-family: 'VT323', monospace;
   line-height: 1.4;
+
 }
 
 a:hover {
