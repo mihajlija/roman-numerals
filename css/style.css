@@ -53,21 +53,6 @@ input {
   font-size: 1.2em;
 }
 
-
-/*.menu__go {
-  display: block;
-  height: 40px;
-  width: 100%;
-  color: #f2f2f2;
-  background-color: #2f2fb6;
-  padding-top: 10px;
-}
-
-.menu__go:hover {
-  color: #f2f2f2;
-   background-color:  #2828a4;
-} */
-
 #main {
   margin: 0 auto;
   margin-top: 50px;
