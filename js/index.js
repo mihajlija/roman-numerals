@@ -14,8 +14,8 @@ $(document).ready(function() {
   });
 
   // getting the number input with button click
-  $(".menu__go").click(function() {
-
+  $(".menu__go").click(function(event) {
+    event.preventDefault();
     $("#main").empty();
     // getting the number term from input form
     var input = $("input[name=number]").val();
