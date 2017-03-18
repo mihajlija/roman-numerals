@@ -1,0 +1,121 @@
+ body {
+  /* Location of the image */
+  background-image: url(../vaporwave.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  font-family: 'VT323', monospace;
+}
+
+* {
+  line-height: 1.4;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header h1 {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 64px;
+  color: #3fe45e;
+}
+
+.menu {
+  margin: 0 auto;
+  max-width: 300px;
+  min-width: 200px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-size: 1.3em;
+}
+
+header {
+  text-align: center;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 1.2em;
+}
+
+
+/*.menu__go {
+  display: block;
+  height: 40px;
+  width: 100%;
+  color: #f2f2f2;
+  background-color: #2f2fb6;
+  padding-top: 10px;
+}
+
+.menu__go:hover {
+  color: #f2f2f2;
+   background-color:  #2828a4;
+} */
+
+#main {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#main p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 6rem;
+  color: #3fe45e;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 800px) {
+  #main p {
+    font-size: 12rem;
+    line-height: 1.4;
+  }
+}
+
+.start-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  line-height: 25px;
+  font-weight: bold;
+  padding-left: 31px;
+  padding-right: 7px;
+  height: 40px;
+  line-height: 40px;
+  background-image: url('http://vignette4.wikia.nocookie.net/logopedia/images/b/b3/Windows_logo_(Pre-XP)_alt._color.svg.png/revision/latest?cb=20160311145452');
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position: 5px center;
+  background-color: #c0c0c0;
+  border-top: 2px solid white;
+  border-right: 2px solid #222;
+  ;
+  border-bottom: 2px solid #222;
+  ;
+  border-left: 2px solid white;
+}
+
+.start-btn:hover {
+  border-right: 2px solid white;
+  border-top: 2px solid #222;
+  ;
+  border-left: 2px solid #222;
+  ;
+  border-bottom: 2px solid white;
+}
